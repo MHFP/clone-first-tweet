@@ -1,0 +1,122 @@
+body{
+  background: rgb(244, 248, 249);
+  font-family: Helvetica;
+}
+
+img{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.container{
+  display: flex;
+}
+
+
+.tweet{
+  display: flex;
+  margin: 100px 100px;
+  background: rgb(255, 255, 255);
+  border: solid 2px rgb(225, 232, 237);
+  border-radius: 10px;
+  min-width: 900px;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.tweet-head{
+  display: flex;
+  align-items: center;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+
+}
+
+.profile-pic{
+  float: left;
+}
+
+.profile-head{
+display: flex;
+flex-direction: column;
+width: 150px;
+margin-left: 10px;
+}
+
+.profile-top{
+  display: flex;
+  align-items: center;
+}
+
+#at-jack{
+  margin-bottom: 0px;
+  font-size: 22px;
+  color: grey;
+  font-weight: 600;
+}
+
+#jack{
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.button{
+  display: flex;
+  margin-left: auto;
+  margin-right: 40px;
+  align-items: center;
+  border: solid thin rgb(85, 172, 238);
+  border-radius: 10px;
+  padding: 10px;
+  width: 160px;
+}
+
+#follow{
+  color: rgb(85, 172, 238);
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+
+#profile-pic{
+  float: left;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+#text-log{
+  font-size: 24px;
+  margin-top: 30px;
+  font-weight: 550;
+}
+
+#date{
+  font-size: 22px;
+  color: rgb(101, 116, 127);
+}
+
+.options{
+  display: flex;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.option{
+  display: flex;
+  margin-left: 0px;
+  margin-right: 10px;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.data{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: rgb(101, 116, 127);
+}
